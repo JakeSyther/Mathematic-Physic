@@ -1,0 +1,12 @@
+Magnitude is a term used to describe the size or quantity of a physical quantity or measurement.
+In mathematics and physics, magnitude typically refers to the absolute value, or size, of a scalar or vector quantity.
+
+In the case of a scalar quantity, such as temperature, magnitude refers to the absolute value of the quantity without regard to its sign. 
+For example, the magnitude of -5 degrees Celsius is 5 degrees Celsius, and the magnitude of 10 meters is 10 meters.
+
+In the case of a vector quantity, such as velocity or force, magnitude refers to the length or size of the vector. 
+This can be calculated using the Pythagorean theorem, which states that the magnitude of a vector in two or three dimensions is equal
+to the square root of the sum of the squares of its components.
+
+For example, the magnitude of a vector v = (3,4) is √(3^2 + 4^2) = 5.
+
