@@ -1,0 +1,60 @@
+Vector addition is an operation that combines two or more vectors to produce a new vector that represents their combined effect.
+The resulting vector is called the sum of the vectors.
+
+In two-dimensional space, vector addition can be visualized as placing the tail of one vector at the head of another vector and drawing
+a new vector from the tail of the first vector to the head of the second vector. 
+The resulting vector represents the combined effect of the two input vectors.
+
+For example, consider two vectors in 2D space:
+
+v1 = (2, 3)
+v2 = (-1,4)
+
+To add these two vectors together, we place the tail of v2 at the head of v1 and draw a new vector from the tail of v1 to the head of v2:
+
+
+
+   |
+v1 |-----> 
+   |     /
+   |   /
+   | /
+   *------->
+     v2
+     
+The resulting vector is the vector that starts at the tail of v1 and ends at the head of v2:
+
+v1 + v2 = (2,3) + (-1,4) = (1,7)
+
+In three-dimensional space, vector addition is similar to two-dimensional vector addition. 
+We can visualize it as placing the tail of one vector at the head of another vector,
+and then drawing a new vector from the tail of the first vector to the head of the second vector.
+The resulting vector represents the combined effect of the two input vectors.
+
+For example, consider two vectors in 3D space:
+
+v1 = (1,2,3)
+v2 = (-2,1,-1)
+
+To add these two vectors together, we place the tail of v2 at the head of v1 and draw a new vector from the tail of v1 to the head of v2:
+
+   *----------->
+   |        v2
+   |
+v1 |
+   |
+   |
+
+The resulting vector is the vector that starts at the tail of v1 and ends at the head of v2:
+
+v1 + v2 = (1,2,3) + (-2,1,-1) = (-1,3,2)
+
+Vector addition satisfies the commutative and associative properties. 
+This means that the order in which we add the vectors does not matter, and we can group them in any way we like.
+
+
+For example:
+v1 + v2 + v3 = v1 + (v2 + v3) = (v1 + v2) + v3
+
+Vector addition is an important operation in mathematics and physics, as it allows us to combine the effects 
+of multiple vectors to understand the behavior of a system.
