@@ -1,0 +1,11 @@
+A unit vector is a vector that has a magnitude or length of 1. 
+In other words, it is a vector that has been normalized, or scaled, to have a length of 1.
+
+A vector is typically represented by an arrow that indicates both its direction and magnitude.
+If the magnitude of the vector is not 1, it can be scaled to obtain a unit vector in the same direction. 
+To do this, the vector is divided by its magnitude, resulting in a vector with the same direction but with a magnitude of 1.
+
+[v = (x,y,z)]
+For example, if we have a vector v = (3,4), its magnitude is √(3^2 + 4^2) = 5.
+To obtain a unit vector in the same direction as v, we divide v by its magnitude, giving us u = v/5 = (3/5, 4/5). 
+The vector u is now a unit vector in the same direction as v.
