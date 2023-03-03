@@ -1,0 +1,27 @@
+Normalizing a vector refers to the process of converting a vector into a unit vector, which has a magnitude or length of 1.
+This is typically done by dividing each component of the vector by its magnitude.
+
+A unit vector is a vector with a magnitude of 1, but the same direction as the original vector. 
+Normalizing a vector is useful in many applications because it allows us to preserve the direction of the vector while removing the effects of its magnitude.
+
+To normalize a vector, we first calculate its magnitude using the Pythagorean theorem or the Euclidean distance formula. 
+Then, we divide each component of the vector by its magnitude.
+This ensures that the resulting vector has a magnitude of 1 and the same direction as the original vector.
+
+For example, let's say we have a vector v = (3,4). To normalize this vector, we first calculate its magnitude:
+
+|v| = √(3^2 + 4^2) = 5
+
+Then, we divide each component of the vector by its magnitude:
+
+v_normalized = (3/5, 4/5)
+
+The resulting vector, v_normalized, has a magnitude of 1 and the same direction as the original vector v.
+
+Normalizing vectors is important in many applications, such as computer graphics, game development, and machine learning.
+In computer graphics, normalized vectors are often used to represent lighting and shading effects, while in game development,
+normalized vectors can be used to calculate the direction and speed of game objects. In machine learning, 
+normalized vectors can be used to reduce the impact of the magnitude of features on the output of a model.
+
+
+
