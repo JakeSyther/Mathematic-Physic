@@ -1,0 +1,128 @@
+The Law of Cosines, also known as the Cosine Formula or Cosine Rule, is a fundamental theorem in trigonometry that provides a way to compute the length 
+of a side of a triangle when the lengths of the other two sides and the angle between them are known.
+
+The theorem states that for any triangle ABC with sides of length a, b, and c, and angles opposite those sides labeled A, B, and C, respectively,
+the following relationship holds:
+
+c^2 = a^2 + b^2 - 2ab cos(C)
+
+The Law of Cosines is a generalization of the Pythagorean Theorem, which applies only to right triangles, 
+and it is an essential tool in many branches of mathematics, physics, and engineering. 
+In particular, it is widely used in game development and computer graphics to determine the positions and orientations of objects in three-dimensional space.
+
+To understand the Law of Cosines, it is helpful to visualize a triangle ABC in a two-dimensional plane.
+The side opposite angle A is denoted by a, the side opposite angle B by b, and the side opposite angle C by c. 
+The Law of Cosines tells us that the square of the length of the side c is equal to the sum of the squares of the lengths of the sides a and b,
+minus twice the product of the lengths of the sides a and b multiplied by the cosine of the angle C:
+
+c^2 = a^2 + b^2 - 2ab cos(C)
+
+This formula can be rearranged in various ways to solve for different quantities. 
+For example, if we know the lengths of the sides a and b and the angle C, we can use the Law of Cosines to find the length of the side c.
+Alternatively, if we know the lengths of the sides b and c and the angle A, we can use the Law of Cosines to find the length of the side a, and so on.
+
+The Law of Cosines is a powerful tool for solving a variety of problems in geometry, trigonometry, and applied mathematics. 
+It can be used to determine the area of a triangle, the circumradius and inradius of a triangle, and the distance between two points in three-dimensional space.
+It also has many applications in physics and engineering, such as calculating the forces and torques acting on a rigid body,
+and in navigation, such as finding the distance and direction between two points on the surface of the Earth.
+
+In conclusion, the Law of Cosines is a versatile and widely used theorem in mathematics and science,
+and its applications extend far beyond the field of game development. By understanding the Law of Cosines and its properties,
+we can gain insights into the behavior of physical systems and solve complex problems with ease.
+
+Here's an example: suppose the character is located at point (3, 4) on a 2D plane, and the player aims at an enemy located at point (8, 8). 
+To determine the direction and distance of the projectile, we can use the Law of Cosines:
+
+distance = sqrt((8-3)^2 + (8-4)^2)
+= sqrt(25 + 16)
+≈ 6.4
+
+angle = acos((8-3)/6.4)
+≈ 0.78 radians or 44.7 degrees
+
+(Converting degrees from radians :
+Formula : degrees = radians x (180/π)
+Where π (pi) is approximately equal to 3.14159.
+So to convert 0.78 radians to degrees, you would plug it into the formula:
+degrees = 0.78 x (180/π)
+degrees = 0.78 x (180/3.14159)
+degrees ≈ 44.6886
+""""Therefore, 0.78 radians is approximately equal to 44.7 degrees."""")
+
+
+This tells us that the projectile needs to travel a distance of about 6.4 units, and needs to be aimed at an angle of about 44.7 degrees from the horizontal.
+
+The Law of Cosines can also be used in 3D game development, by applying it to the distance between two points in 3D space and the angles between them.
+
+Here are five more examples of the Law of Cosines with varying levels of difficulty:
+
+Easy: Find the length of the third side of a triangle with sides of length 5 and 8, and an included angle of 60 degrees.
+Solution: Using the Law of Cosines, we have:
+
+c^2 = 5^2 + 8^2 - 2(5)(8)cos(60)
+c^2 = 25 + 64 - 80(0.5)
+c^2 = 54
+c ≈ 7.35
+
+Therefore, the length of the third side is approximately 7.35 units.
+
+Easy: Find the length of the third side of a triangle with sides of length 4 and 6, and an included angle of 120 degrees.
+Solution: Using the Law of Cosines, we have:
+
+c^2 = 4^2 + 6^2 - 2(4)(6)cos(120)
+c^2 = 16 + 36 + 48
+c^2 = 100
+c = 10
+
+Therefore, the length of the third side is 10 units.
+
+Medium: Find the length of the third side of a triangle with sides of length 7 and 10, and an included angle of 45 degrees.
+Solution: Using the Law of Cosines, we have:
+
+c^2 = 7^2 + 10^2 - 2(7)(10)cos(45)
+c^2 = 49 + 100 - 140(0.7071)
+c^2 = 53.02
+c ≈ 7.29
+
+Therefore, the length of the third side is approximately 7.29 units.
+
+Medium: Find the length of the third side of a triangle with sides of length 3 and 5, and an included angle of 30 degrees.
+Solution: Using the Law of Cosines, we have:
+
+c^2 = 3^2 + 5^2 - 2(3)(5)cos(30)
+c^2 = 9 + 25 - 30(0.866)
+c^2 = 7.61
+c ≈ 2.76
+
+Therefore, the length of the third side is approximately 2.76 units.
+
+Difficult: Find the length of the third side of a triangle with sides of length 5, 9, and 12.
+Solution: Using the Law of Cosines, we have:
+
+c^2 = 5^2 + 9^2 - 2(5)(9)cos(C)
+c^2 = 25 + 81 - 90cos(C)
+
+We also know that:
+
+c^2 = 12^2
+c^2 = 144
+
+Substituting this into the previous equation, we have:
+
+144 = 25 + 81 - 90cos(C)
+cos(C) = -0.26
+
+Since cos(C) is negative, angle C is obtuse. Using the inverse cosine function, we have:
+
+C ≈ 103.2 degrees
+
+Substituting this into the Law of Cosines equation, we have:
+
+c^2 = 25 + 81 - 2(5)(9)cos(103.2)
+c^2 = 144.12
+c ≈ 12.0
+
+Therefore, the length of the third side is approximately 12.0 units.
+
+
+
